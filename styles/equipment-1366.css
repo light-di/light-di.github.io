@@ -1,0 +1,341 @@
+@media (min-width: 1365px)
+{
+
+    html, body
+    {
+
+    }
+
+    .Header_wrapper
+    {
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+        #toggle
+        {
+
+        }
+
+        .Burger
+        {
+            display: none;
+        }
+
+        #toggle:checked ~ .Burger
+        {
+            
+        }
+
+            .Burger_icon
+            {
+
+            }
+
+        .Header_bg
+        {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+        }
+
+            .Header
+            {
+                min-width: 1300px;
+                max-width: 1700px;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+            }
+
+                .Header_Title
+                {
+                    margin-left: 5%;
+                }
+
+                .Header_nav
+                {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    align-items: center;
+                    margin-right: 5%;
+                }
+
+                    .Header_nav-item
+                    {
+                        margin: 10px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: normal;
+                    }
+
+                    .Header_nav-item:hover::after
+                    {
+
+                    }
+
+    .Header_placeholder
+    {
+
+    }
+
+    .mainBanner_wrapper
+    {
+
+    }
+
+        .mainBanner_bg
+        {
+
+        }
+
+        .mainBanner_text
+        {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 150px;
+        }
+
+
+
+
+
+        .diagnosticEq
+        {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            .diagnosticEq_bg
+            {
+                width: 100%;
+            }
+                .diagnosticEq_wrapper
+                {
+                    width: 100%;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    .diagnosticEq_Slider_container
+                    {
+                        width: 60%;
+                        display: flex;
+                        flex-flow: row nowrap;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                        .diagnosticEq_Slider_prev
+                        {
+                            width: 5%;
+                        }
+                        .diagnosticEq_Slider
+                        {
+                            width: 80%;
+                        }
+                                .Slider_item
+                                {
+                                    width: 100%;
+                                }
+    
+                        .diagnosticEq_Slider_next
+                        {
+                            width: 5%;
+                        }
+                    .diagnosticEq_Descr_container
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 40%;
+                        padding: 30px;
+                    }
+                        .diagnosticEq_Title
+                        {
+                            font-size: 36px;
+                            margin: 20px;
+                        }
+                        .diagnosticEq_Text
+                        {
+                            font-size: 20px;
+                            margin-bottom: 20px;
+                        }
+    
+                            .diagnosticEq_Text-list
+                            {
+                                width: 100%;
+                                font-size: 20px;
+                            }
+    
+            .divider
+            {
+                display: none;
+            }
+    
+        .commonRailEq
+        {
+            width: 100%;
+            background: #E8ECF0;
+        }
+            .commonRailEq_bg
+            {
+                
+                width: 100%;
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                justify-content: center;
+            }
+                .commonRailEq_image_wrapper
+                {
+                    width: 60%;
+                }
+                    .commonRailEq_image
+                    {
+                        width: 100%;
+                    }
+    
+                .commonRailEq_Descr_container
+                {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 40%;
+                    padding: 30px;
+                }
+                    .commonRailEq_Descr_Title
+                    {
+                        font-size: 36px;
+                        margin: 20px;
+                    }
+                    .commonRailEq_Descr_Text
+                    {
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+    
+        .injectionPumpEq
+        {
+            width: 100%;
+        }
+            .injectionPumpEq_bg
+            {
+                width: 100%;
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                justify-content: center;
+            }
+                .injectionPumpEq_image_wrapper
+                {
+                    width: 60%;
+                }
+                    .injectionPumpEq_image
+                    {
+                        width: 100%;
+                    }
+    
+                .injectionPumpEq_Descr_container
+                {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 40%;
+                    padding: 30px;
+                }
+                    .injectionPumpEq_Descr_Title
+                    {
+                        font-size: 36px;
+                        margin: 20px;
+                    }
+                    .injectionPumpEq_Descr_Text
+                    {
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                    .injectionPumpEq_Descr_Text_Header
+                    {
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                    .injectionPumpEq_Descr_Text_List
+                    {
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+            .Footer_wrapper
+            {
+                display: flex;
+                align-items: center;
+
+            }
+        
+                .Footer_bg
+                {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+        
+                    .Footer
+                    {
+                        min-width: 1300px;
+                        max-width: 1700px;
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: space-between;
+                    }
+        
+                        .Footer_Title
+                        {
+                            margin-left: 5%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+        
+                        .Footer_nav
+                        {
+                            display: flex;
+                            flex-flow: row nowrap;
+                            align-items: center;
+                            margin-right: 5%;
+                        }
+        
+                            .Footer_nav-item
+                            {
+                                margin: 10px;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: normal;
+                            }
+
+}

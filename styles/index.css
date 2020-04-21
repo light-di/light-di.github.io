@@ -1,0 +1,491 @@
+html, body
+{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.Header_wrapper
+{
+    width: 100%;
+    background: #252525;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 2;
+}
+
+    #toggle
+    {
+        position: absolute;
+        left: -100%;
+        top: -100%;
+    }
+
+     .Burger
+    {
+        display: flex;
+        flex-flow: row nowrap;
+        background: none;
+        border: none;
+        margin: 10px;
+    }
+
+    #toggle:checked ~ .Burger
+    {
+        
+    }
+
+        .Burger_icon
+        {
+            background: #FFFFFF;
+            border-radius: 10px;
+        } 
+
+    .Header_bg
+    {
+        width: 100%;
+    }
+
+        .Header
+        {
+            width: 100%;
+        }
+
+            .Header_Title
+            {
+                object-fit: none;
+            }
+
+            .Header_nav
+            {
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+            }
+
+                .Header_nav-item
+                {
+                    position: relative;
+                    text-decoration: none;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: normal;
+
+                    color: #FFFFFF;
+                }
+
+                .Header_nav-item:hover::after
+                {
+                    content: "";
+                    height: 3px;
+                    width: 33px;
+                    background: #FFFFFF;
+                    position: absolute;
+                    top: 105%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    margin: 3px;
+                    
+                }
+
+.Header_placeholder
+{
+
+}
+.up_button
+    {
+        background-attachment: fixed;
+        position: absolute;
+        z-index: 1;
+        cursor: pointer;
+        top: 10px;
+        left: 10px;
+    }
+.mainBanner_wrapper
+{
+    z-index: 2;
+    background-image: url('/images/backgrounds/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+    .mainBanner_bg
+    {
+        background: linear-gradient(118.59deg, rgba(0,26,255,0.5) 12.99%, rgba(228,48,48,0.5) 81.52%), rgba(0, 0, 0, 0.8);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .mainBanner_Logo
+        {
+
+        }
+
+		.mainBanner_Text
+        {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            text-align: center;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+			.mainBanner_Text-1
+            {
+
+            }
+
+                .mainBanner_Text-2
+                {
+                    /* background-color: #FFFFFF; */
+                    /* color: #10175C; */
+                    color: #FFFFFF;
+                }
+            
+			.mainBanner_Text-3
+            {
+            
+            }
+			
+		.mainBanner_Contacts
+        {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            text-align: center;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+			.mainBanner_Mail
+            {
+            
+            }
+
+			.mainBanner_Phone
+            {
+            
+            }
+
+			.mainBanner_Icons
+            {
+            
+            }
+
+		.Services_bg
+        {
+        
+        }
+
+			.Services_wrapper
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: #10175C;
+            }
+
+				.Services_Title
+                {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+				.Services_Body
+                {
+
+                }
+
+					.Services_Item
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+						.Services_Item-Title
+                        {
+                        
+                        }
+
+                        .Service_Item-Image
+                        {
+
+                        }
+
+						.Services_Item-list
+                        {
+                            margin: 0 0 40px 0;
+                        }
+
+							.Services_Item-listitem
+                            {
+                                display: flex;
+                                flex-flow: row nowrap;
+                            }
+
+								.Icon-checked
+                                {
+                                    margin: 5px;
+                                    height: auto;
+                                }
+
+								.Services_Item-text
+                                {
+                                    margin: 5px;
+                                    height: auto;
+                                }
+
+
+					.Services_Item-divider
+                    {
+                        background: #E8ECF0;
+                    }
+
+				.Services_Buttons
+                {
+                
+                }
+
+					.Services_Button-1
+                    {
+                        background: linear-gradient(128.69deg, #1827AB 12.99%, #C51919 81.52%);
+                        border-radius: 50px;
+                    }
+
+						.Services_Button-1_title
+                        {
+                            color: #FFFFFF;
+                        }
+
+					.Services_Button-2
+                    {
+                        border: 3px solid #1424C1;
+                        box-sizing: border-box;
+                        border-radius: 500px;
+                    }
+
+						.Services_Button-2_title
+                        {
+                            color: #1424C1;
+                        }
+
+		.Logos_bg
+        {
+            background: #E8ECF0;
+        }
+
+			.Logos_wrapper
+            {
+                width: 100%;
+            }
+
+				.Logos_Item
+                {
+                
+                }
+
+					.Logos_Item-image
+                    {
+                    
+                    }
+
+
+
+        .Ukraine_bg
+        {
+            color: #FFFFFF;
+        }
+            .Ukraine_wrapper
+            {
+                
+            }
+                .Ukraine_Image
+                {
+                    
+                }
+                .Ukraine_Text-wrapper
+                {
+                    
+                }
+                    .Ukraine_Title
+                    {
+                        color: #10175C;
+                    }
+                    .Ukraine_Item
+                    {
+                        
+                    }
+                        .Ukraine_Icon
+                        {
+                            
+                        }
+                        .Ukraine_Item-text
+                        {
+                            color: #000000;
+                        }
+                    .Ukraine_Button
+                    {
+                        background: linear-gradient(128.69deg, #1827AB 12.99%, #C51919 81.52%);
+                        border-radius: 50px;
+                    }
+                        .Ukraine_Button_title
+                        {
+                            
+                        }
+
+        .Advantages_bg
+        {
+            background: linear-gradient(96.75deg, #081270 19.46%, #840505 78.07%);
+        }
+            .Advantages_wrapper
+            {
+                
+            }
+                .Advantages_Item
+                {
+                    
+                }
+                    .Advantages_Item-image
+                    {
+                        
+                    }
+                    .Advantages_Item-Title
+                    {
+                        
+                    }
+                    .Advantages_Item-Text
+                    {
+                        
+                    }
+
+        .Slider_bg
+        {
+
+        }
+            .Slider_wrapper
+            {
+
+            }
+                .Slider_Title
+                {
+                    color: #10175C;
+                }
+                .Slider_Text
+                {
+                    color: #10175C;
+                    opacity: 0.6;
+                }
+
+                    .Slider_container
+                    {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                        .Slider
+                        {
+                            /* width: 38%; */
+                        }
+
+                        .Slider_prev
+                        {
+                            /* width: 100px; */
+                            opacity: 0.5;
+                        }
+
+                        .Slider_next
+                        {
+                            /* width: 100px; */
+                            opacity: 0.5;
+                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .Footer_wrapper
+        {
+            width: 100%;
+            
+        }
+    
+            .Footer_bg
+            {
+                width: 100%;
+                background: #252525;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+                .Student
+                {
+                    position: relative;
+                    text-decoration: none;
+                    font-family: Roboto;
+                    font-weight: normal;
+                    line-height: normal;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 0.568);
+                    margin-bottom: 20px;
+                    margin-top: 10px;
+                }
+                .Footer
+                {
+                    margin-top: 20px;
+                    display: flex;
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+    
+                    .Footer_Title
+                    {
+                        
+                    }
+    
+                    .Footer_Img
+                    {
+                        object-fit: none;
+                    }
+    
+                    .Footer_nav
+                    {
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: center;
+                    }
+    
+                        .Footer_nav-item
+                        {
+                            position: relative;
+                            text-decoration: none;
+                            font-family: Roboto;
+                            font-style: normal;
+                            font-weight: normal;
+                            line-height: normal;
+    
+                            color: #FFFFFF;
+                        }

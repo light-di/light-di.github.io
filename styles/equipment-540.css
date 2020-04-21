@@ -1,0 +1,376 @@
+@media (min-width: 539px) and (max-width: 768px)
+{
+
+    html, body
+    {
+        overflow-x: hidden;
+    }
+
+    .Header_wrapper
+    {
+
+    }
+
+    #toggle
+    {
+        
+    }
+    
+    .Burger
+    {
+        display: flex;
+        flex-flow: column;
+        background: none;
+        border: none;
+        width: 39px;
+        height: 100%;
+        margin: 10px;
+    }
+    
+    #toggle:checked ~ .Header .Burger
+    {
+        display: flex;
+        flex-flow: row nowrap;
+        background: none;
+        border: none;
+        width: auto;
+        height: 39px;
+        margin: 10px;
+    }
+    
+        .Header .Burger .Burger_icon
+        {
+            height: 3px;
+            width: 30px;
+            margin: 4px;
+        }
+    
+        #toggle:checked ~ .Header .Burger .Burger_icon
+        {
+            height: 30px;
+            width: 3px;
+            margin: 4px;
+        }
+    
+            .Header .Burger .Burger_icon.line-1
+            {
+                
+            }
+    
+            #toggle:checked ~ .Header .Burger .Burger_icon.line-1
+            {
+                transform: rotate(50deg);
+            }
+    
+            .Header .Burger .Burger_icon.line-2
+            {
+                
+            }
+    
+            #toggle:checked ~ .Header .Burger .Burger_icon.line-2
+            {
+                opacity: 0;
+            }
+    
+            .Header .Burger .Burger_icon.line-3
+            {
+                
+            }
+    
+            #toggle:checked ~ .Header .Burger .Burger_icon.line-3
+            {
+                transform: rotate(130deg);
+            }
+
+        .Header_bg
+        {
+
+        }
+
+            .Header
+            {
+                min-width: 500px;
+                max-width: 700px;
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            #toggle:checked ~ .Header
+            {
+                min-width: 500px;
+                max-width: 700px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+                .Header_Title
+                {
+                    margin: 15px;
+                }
+
+                #toggle:checked ~ .Header .Header_Title
+                {
+                    margin: 10px;
+                }
+
+                .Header .Header_nav
+                {
+                    display: none;
+                }
+
+                #toggle:checked ~ .Header .Header_nav
+                {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                    .Header_nav-item
+                    {
+                        margin: 5px;
+                    }
+
+                    .Header_nav-item:hover::after
+                    {
+
+                    }
+
+    .Header_placeholder
+    {
+
+    }
+
+    .mainBanner_wrapper
+    {
+        height: 120px;
+    }
+
+        .mainBanner_bg
+        {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+            .mainBanner_text
+            {
+                font-size: 36px;
+            }
+
+
+
+
+
+
+
+            .diagnosticEq
+            {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+                .diagnosticEq_bg
+                {
+                    width: 100%;
+                }
+                    .diagnosticEq_wrapper
+                    {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                        .diagnosticEq_Slider_container
+                        {
+                            width: 100%;
+                            display: flex;
+                            flex-flow: row nowrap;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                            .diagnosticEq_Slider_prev
+                            {
+                                width: 5%;
+                            }
+                            .diagnosticEq_Slider
+                            {
+                                width: 80%;
+                            }
+                                    .Slider_item
+                                    {
+                                        width: 100%;
+                                    }
+        
+                            .diagnosticEq_Slider_next
+                            {
+                                width: 5%;
+                            }
+                        .diagnosticEq_Descr_container
+                        {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            width: 80%;
+                            margin: 10px;
+                        }
+                            .diagnosticEq_Title
+                            {
+                                font-size: 28px;
+                                margin: 20px;
+                            }
+                            .diagnosticEq_Text
+                            {
+                                font-size: 18px;
+                                margin-bottom: 20px;
+                            }
+        
+                                .diagnosticEq_Text-list
+                                {
+                                    width: 100%;
+                                    font-size: 18px;
+                                    margin-bottom: 20px;
+                                }
+        
+                .divider
+                {
+                    display: none;
+                }
+        
+            .commonRailEq
+            {
+                width: 100%;
+                background: #E8ECF0;
+            }
+                .commonRailEq_bg
+                {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    .commonRailEq_image_wrapper
+                    {
+                        width: 100%;
+                    }
+                        .commonRailEq_image
+                        {
+                            width: 100%;
+                        }
+        
+                    .commonRailEq_Descr_container
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 80%;
+                        margin: 10px;
+                    }
+                        .commonRailEq_Descr_Title
+                        {
+                            font-size: 28px;
+                            margin: 20px;
+                        }
+                        .commonRailEq_Descr_Text
+                        {
+                            font-size: 18px;
+                            margin-bottom: 20px;
+                        }
+        
+            .injectionPumpEq
+            {
+                width: 100%;
+            }
+                .injectionPumpEq_bg
+                {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    .injectionPumpEq_image_wrapper
+                    {
+                        width: 100%;
+                    }
+                        .injectionPumpEq_image
+                        {
+                            width: 100%;
+                        }
+        
+                    .injectionPumpEq_Descr_container
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 80%;
+                        margin: 10px;
+                    }
+                        .injectionPumpEq_Descr_Title
+                        {
+                            font-size: 28px;
+                            margin: 20px;
+                        }
+                        .injectionPumpEq_Descr_Text
+                        {
+                            font-size: 18px;
+                            margin-bottom: 20px;
+                        }
+
+
+
+
+                            
+
+    .Footer_wrapper
+    {
+
+    }
+
+        .Footer_bg
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+            .Footer
+            {
+                display: flex;
+                flex-direction: column;
+            }
+
+                .Footer_Title
+                {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 15px;
+                }
+
+                .Footer_nav
+                {
+                    margin-bottom: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                    .Footer_nav-item
+                    {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: normal;
+                        text-align: center;
+                    }
+
+}

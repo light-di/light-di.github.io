@@ -1,0 +1,610 @@
+@media (max-width: 539px)
+{
+
+    html, body
+    {
+        overflow-x: hidden;
+    }
+
+    .Header_wrapper
+    {
+
+    }
+
+    #toggle
+    {
+        
+    }
+    
+    .Burger
+    {
+        display: flex;
+        flex-flow: column;
+        background: none;
+        border: none;
+        width: 39px;
+        height: 100%;
+        margin: 10px;
+    }
+    
+    #toggle:checked ~ .Header .Burger
+    {
+        display: flex;
+        flex-flow: row nowrap;
+        background: none;
+        border: none;
+        width: auto;
+        height: 39px;
+        margin: 10px;
+    }
+    
+        .Header .Burger .Burger_icon
+        {
+            height: 3px;
+            width: 30px;
+            margin: 4px;
+        }
+    
+        #toggle:checked ~ .Header .Burger .Burger_icon
+        {
+            height: 30px;
+            width: 3px;
+            margin: 4px;
+        }
+    
+            .Header .Burger .Burger_icon.line-1
+            {
+                
+            }
+    
+            #toggle:checked ~ .Header .Burger .Burger_icon.line-1
+            {
+                transform: rotate(50deg);
+            }
+    
+            .Header .Burger .Burger_icon.line-2
+            {
+                
+            }
+    
+            #toggle:checked ~ .Header .Burger .Burger_icon.line-2
+            {
+                opacity: 0;
+            }
+    
+            .Header .Burger .Burger_icon.line-3
+            {
+                
+            }
+    
+            #toggle:checked ~ .Header .Burger .Burger_icon.line-3
+            {
+                transform: rotate(130deg);
+            }
+
+        .Header_bg
+        {
+
+        }
+
+            .Header
+            {
+                min-width: 300px;
+                max-width: 520px;
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            #toggle:checked ~ .Header
+            {
+                min-width: 300px;
+                max-width: 520px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+                .Header_Title
+                {
+                    margin: 15px;
+                }
+
+                #toggle:checked ~ .Header .Header_Title
+                {
+                    margin: 10px;
+                }
+
+                .Header .Header_nav
+                {
+                    display: none;
+                }
+
+                #toggle:checked ~ .Header .Header_nav
+                {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                    .Header_nav-item
+                    {
+                        margin: 5px;
+                    }
+
+                    .Header_nav-item:hover::after
+                    {
+
+                    }
+
+    .Header_placeholder
+    {
+
+    }
+
+    .mainBanner_wrapper
+    {
+        width: auto;
+        height: 450px;
+    }
+
+        .mainBanner_bg
+        {
+            height: 100%;
+            width: 100%;
+        }
+
+            .mainBanner_Logo
+            {
+                display: none;
+            }
+
+            .mainBanner_Text
+            {
+                width: 100%;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 40px;
+                font-size: 22px;
+                margin: 80px 0;
+            }
+            
+                .mainBanner_Text-1
+                {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    align-items: center;
+                }
+
+                    .mainBanner_Text-2
+                    {
+                        width: 100%;
+                        text-align: center;
+                        font-size: 24px;
+                    }
+                
+                .mainBanner_Text-3
+                {
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+                
+            .mainBanner_Contacts
+            {
+                /* margin: 40px 0 0 0; */
+            }
+
+                .mainBanner_Mail
+                {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: normal;
+                }
+
+                .mainBanner_Phone
+                {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: normal;
+                    text-align: center;
+                }
+
+                .mainBanner_Icons
+                {
+                    width: 75px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 10px;
+                }
+
+            .Services_bg
+            {
+            
+            }
+
+                .Services_wrapper
+                {
+                    min-width: 300px;
+                    max-width: 520px;
+                }
+
+                    .Services_Title
+                    {
+                        margin: 25px 0;
+                        font-weight: bold;
+                        font-size: 32px;
+                    }
+
+                    .Services_Body
+                    {
+                    
+                    }
+
+                        .Services_Item
+                        {
+                        
+                        }
+
+                            .Services_Item-Title
+                            {
+                                width: 60%;
+                                font-weight: bold;
+                                font-size: 21px;
+                                text-align: center;
+                            }
+
+                            .Service_Item-Image
+                            {
+                                margin: 20px;
+                                width: 90%;
+                            }
+
+                            .Services_Item-list
+                            {
+                                font-size: 16px;
+                            }
+
+                                .Services_Item-listitem
+                                {
+                                
+                                }
+
+                                    .Icon-checked
+                                    {
+                                    
+                                    }
+
+                                    .Services_Item-text
+                                    {
+                                    
+                                    }
+
+
+                        .Services_Item-divider
+                        {
+                            display: none;
+                        }
+
+                    .Services_Buttons
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0 0 40px 0;
+                    }
+
+                        .Services_Button-1
+                        {
+                            text-decoration: none;
+                            margin: 5px;
+                        }
+
+                            .Services_Button-1_title
+                            {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                                cursor: pointer;
+                                font-size: 16px;
+                                font-weight: 800;
+                                color: rgb(255,255,255);
+                                border-radius: 20px;
+                                border-style: none;
+                                width: 160px;
+                                padding: 0px 30px;
+                                height: 30px;
+                                margin: 5px;
+                            }
+
+                        .Services_Button-2
+                        {
+                            text-decoration: none;
+                            margin: 5px;
+                        }
+
+                            .Services_Button-2_title
+                            {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                                cursor: pointer;
+                                font-size: 16px;
+                                font-weight: 800;
+                                color: #1424C1;
+                                border-radius: 20px;
+                                border-style: none;
+                                width: 170px;
+                                padding: 0px 25px;
+                                height: 30px;
+                                margin: 5px;
+                            }
+
+            .Logos_bg
+            {
+                width: 100%;
+            }
+
+                .Logos_wrapper
+                {
+                    width: 100%;
+                    padding: 20px 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                    .Logos_Item
+                    {
+                        width: 100%;
+                        height: 100px;
+                        padding: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                        .Logos_Item-image
+                        {
+                            width: 60%;
+                        }
+
+            .Ukraine_bg
+            {
+
+            }
+                .Ukraine_wrapper
+                {
+                    padding: 15% 10%;
+                }
+                    .Ukraine_Image
+                    {
+                        width: 100%;
+                    }
+                    .Ukraine_Text-wrapper
+                    {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                        .Ukraine_Title
+                        {
+                            text-align: center;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 30px;
+                            line-height: normal;
+                            margin: 15px 0 15px 0;
+                        }
+                        .Ukraine_Item
+                        {
+                            width: 100%;
+                            display: flex;
+                            flex-flow: row nowrap;
+                            align-items: center;
+                            /* justify-content: space-between; */
+                        }
+                            .Ukraine_Icon
+                            {
+                                height: 30px;
+                                width: 30px;
+                            }
+                            .Ukraine_Item-text
+                            {
+                                margin: 10px 0 10px 10px;
+                                display: flex;
+                                flex-flow: row wrap;
+                                align-items: left;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: normal;
+                            }
+                        .Ukraine_Button
+                        {
+                            text-decoration: none;
+                            margin: 15px;
+                        }
+                            .Ukraine_Button_title
+                            {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                                cursor: pointer;
+                                font-size: 16px;
+                                font-weight: 800;
+                                color: rgb(255,255,255);
+                                border-radius: 20px;
+                                border-style: none;
+                                width: 160px;
+                                padding: 0px 30px;
+                                height: 30px;
+                                margin: 5px; 
+                            }   
+
+            .Advantages_bg
+            {
+                
+            }
+                .Advantages_wrapper
+                {
+                    padding: 15% 10%;
+                }
+                    .Advantages_Item
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 15px;
+                    }
+                        .Advantages_Item-image
+                        {
+                            
+                        }
+                        .Advantages_Item-Title
+                        {
+                            margin: 10px;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 20px;
+                            line-height: normal;
+                            text-align: center;
+
+                            color: #FFFFFF;
+                        }
+                        .Advantages_Item-Text
+                        {
+                            
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: normal;
+                            text-align: center;
+
+                            color: #FFFFFF;
+
+                            opacity: 0.6;
+                        }
+
+            .Slider_bg
+            {
+                
+            }
+                .Slider_wrapper
+                {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10%;
+                }
+                    .Slider_Title
+                    {
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 30px;
+                        line-height: normal;
+                    }
+                    .Slider_Text
+                    {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: normal;
+                        margin: 20px 0;
+                    }
+                    .Slider_container
+                    {
+
+                    }
+
+                        .Slider
+                        {
+                            width: 85%;
+                        }
+
+                        .Slider_prev
+                        {
+                            width: 35px;
+                        }
+
+                        .Slider_next
+                        {
+                            width: 35px;
+                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Footer_wrapper
+    {
+
+    }
+
+        .Footer_bg
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+            .Footer
+            {
+                display: flex;
+                flex-direction: column;
+            }
+
+                .Footer_Title
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 15px;
+                }
+
+                .Footer_nav
+                {
+                    margin-bottom: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                    .Footer_nav-item
+                    {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: normal;
+                        text-align: center;
+                    }
+
+}
