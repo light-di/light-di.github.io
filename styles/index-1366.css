@@ -92,13 +92,19 @@
             height: 100%;
             width: 100%;
         }
+        .mainBanner_SL
+        {
+            margin: 50px 0px;
+        }
 
             .mainBanner_Logo
             {
-                display: block;
-                margin: 70px 0;
+                padding-bottom: 3%;
             }
-
+            .mainBanner_Text_logo
+            {
+                font-size: 40px;
+            }
             .mainBanner_Text
             {
                 width: 100%;
